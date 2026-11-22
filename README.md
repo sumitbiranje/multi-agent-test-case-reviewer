@@ -72,6 +72,14 @@ findings instead of every line.
 The same reviewer pattern fits code review checklists, document QA, compliance checks, content moderation and
 grading. Any task where several independent criteria must be checked.
 
+
+## Background & further reading (public)
+
+- The **ISTQB** syllabus and **IEEE 829 / ISO/IEC/IEEE 29119-3** define what a good test case contains: objective, preconditions, steps, expected results and traceability. These are the dimensions the seven agents check.
+- [OpenAI Agents SDK](https://openai.github.io/openai-agents-python/): the agent framework used, with structured outputs and parallel execution.
+- Zheng et al., *Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena*, NeurIPS 2023: strengths and limits of using LLMs as reviewers, and why narrow rubrics help.
+- The pattern of several narrow checkers plus a deterministic aggregator mirrors well-established static-analysis tools (one rule per check, rules combined into a verdict).
+
 ---
 
 *Diagrams and examples are illustrative. No proprietary code, data, metrics or customer information is included.*
